@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+     <mata charset="UTF-8">
+        <title>Amazon Prime会員が進めるおすすめ作品</title>
+    </head>
+    <body>
+      <h1>AmazonPrimeおすすめ 5選!!! </h1>
+      <hr>
+    　  <img src="https://panasonic.jp/viera/apps/images/apps_vod_amazon_capture.jpg"alt="AmazonPrimeのロゴ"wldt="320px">
+      <ul>
+       <p>Amazon Primeの<strong>「洋画」「映画」「アニメ」</strong>から<mark>３選</mark>おすすめ順に是非見てもらいたいものを紹介します！！</p>
+      </ul>
+        <h1>第３位 SPY FAMILY</h1>
+        <p><h4>父はスパイ、母は暗殺者、娘は超能力者!!!</h4>それぞれの本性を知らない家族での出来事がアニメになって面白い★</p>
+        <img src="https://im.uniqlo.com/global-cms/spa/res21db2d0f0879625f99c6440fb8d7f813fr.jpg"alt="SPY FAMIRYのロゴ"wldt="320px">
+    
+
+       <ul>
+        <h4>　　　</h4>
+        <h1>第２位 最強のふたり</h1>
+        <p><h4>☆実話です☆</h4>実はこの車いすの方は体を自分で動かせないずあんまり楽しくない生活を送っていった所ある男に…。</p>
+        <img src="https://neet-room.com/wp/wp-content/uploads/2020/05/640.jpg"alt="最強のふたりのロゴ"wldt="320px">
+        <h4>　　　</h4>
+        <ul>
+        <h1>第１位 ONE PIECE</h1>
+        <p><h4>映画上映中：RED</h4>この映画を見に行ってそれを気にワンピース１話からみましょ～！</p>
+        <img src="https://img.cinematoday.jp/a/urivOOZqkYFR/_size_640x/_v_1564737369/main.jpg"alt="ONE PIECEのロゴ"wldt="320px">
+      <ul>
+
+      <table border="3" rules="all">
+    　　
+
+      <p>おすすめしたい作品がありましたら紹介するので下の紹介フォームから記入お願いします！</p>
+      <hr>
+        <h2>紹介フォーム</h2>
+     <from action="mailform.php"method="post">
+      <h3>ニックネーム</h3>
+        <p>
+        <input name="name"type="text">
+        </p>
+      <h3>性別</h3>
+        <p>
+        <input name="campaign" type="radio" value="男">男
+        <input name="campaign" type="radio" value="女">女
+        </p>
+        <h3>作品の名前</h3>
+        <p>
+        <input name="name"type="text">
+        </p>
+        <h3>種類</h3>
+        <p>
+        <select name="応募職種">
+            <option value="アニメ">アニメ</option>
+            <option value="映画">映画</option>
+            <option value="洋画">洋画</option>
+            <option value="その他">その他</option>
+        </select>
+        </p>
+        <h3>作品のおすすめするところ</h3>
+        <p>
+        <textarea name="comment"cols="50"rows="5"></textarea>
+        </p>
+        <p>
+        <input name="submit"type="submit"value="確認画面へ">
+        </p>
+     </from>
+    </body>
+</html>
